@@ -157,7 +157,7 @@ header {
   left: 64px;
 }
 
-.badge {
+.banner-badge {
   gap: 8px;
   padding: 10.5px 16px;
   background: var(--text-green);
@@ -165,7 +165,7 @@ header {
   width: fit-content;
 }
 
-.badge img {
+.banner-badge img {
   width: 24px;
 }
 
@@ -215,7 +215,6 @@ header {
   position: relative;
   background: #f6f6f6;
   border-radius: 18px;
-  padding: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -223,8 +222,8 @@ header {
 
 .slider img {
   width: 100%;
-  max-height: 360px;
-  object-fit: contain;
+  height: 650px;
+  object-fit: cover;
 }
 
 .arrow {
@@ -302,7 +301,9 @@ header {
 }
 
 .badge {
-  background: #15803d;
+  width: 100%;
+  background: var(--button-gradient-bg);
+  border-radius: 8px 8px 0 0;
   color: #fff;
   padding: 6px;
   text-align: center;
@@ -373,12 +374,11 @@ header {
 .included-card {
   border: 1px solid #ddd;
   padding: 10px;
-  flex: 1;
   text-align: center;
 }
 
 .included-card img {
-  width: 40px;
+  width: 55px;
   margin: 5px;
 }
 
@@ -386,6 +386,8 @@ header {
   list-style: none;
   padding-left: 0;
   font-size: 14px;
+  color: var(--banner-title);
+  font-weight: 300;
 }
 
 .benefits li::before {
@@ -396,11 +398,12 @@ header {
 .add-to-cart {
   display: block;
   text-align: center;
-  background: #16a34a;
+  background: var(--button-gradient-bg);
   color: white;
   padding: 14px;
   text-decoration: none;
   font-size: 16px;
+  border-radius: 50px;
 }
 /* Product end */
 
@@ -935,6 +938,6 @@ tbody td:first-child {
   }
 
   .product-gallery {
-    max-width: 100%;
+    width: 100%;
   }
 }

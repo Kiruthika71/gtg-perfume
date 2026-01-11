@@ -86,12 +86,12 @@ function startCount(el) {
 const images = [
   "assets/product1.webp",
   "assets/product2.webp",
+  "assets/slider.webp",
+  "assets/slider1.webp",
   "assets/product1.webp",
   "assets/product2.webp",
-  "assets/product1.webp",
-  "assets/product2.webp",
-  "assets/product1.webp",
-  "assets/product2.webp",
+  "assets/slider.webp",
+  "assets/slider1.webp",
 ];
 
 let currentIndex = 0;
